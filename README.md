@@ -17,27 +17,6 @@ I explore how software works beneath the surface, then turn that understanding i
 
 </div>
 
-<br />
-
-## `> focus --current`
-
-<table>
-  <tr>
-    <td width="33%" align="center">
-      <h3>🎮 Game Systems</h3>
-      <p>Unity / Unreal experimentation, gameplay extensions, and co-op modding.</p>
-    </td>
-    <td width="33%" align="center">
-      <h3>⚙️ Native Tooling</h3>
-      <p>C, C++, C# and Windows-focused utilities built close to the runtime.</p>
-    </td>
-    <td width="33%" align="center">
-      <h3>🔬 Under the Hood</h3>
-      <p>Debugging, reverse engineering, hooks, loaders, and learning by taking systems apart.</p>
-    </td>
-  </tr>
-</table>
-
 ## `> stack --load`
 
 <div align="center">
@@ -53,24 +32,17 @@ I explore how software works beneath the surface, then turn that understanding i
 
 </div>
 
-## `> projects --featured`
+## `> languages --overview`
 
-<table>
-  <tr>
-    <td width="50%">
-      <h3><a href="https://github.com/InitLoader/pvz-traditional-mod">🧟 pvz-traditional-mod</a></h3>
-      <p>A traditional DLL / EXE hook mod framework for Plants vs. Zombies 1.0.0.1051.</p>
-      <a href="https://github.com/InitLoader/pvz-traditional-mod"><img src="https://img.shields.io/badge/C%2B%2B-0b1220?style=flat-square&logo=cplusplus&logoColor=65e6ff" alt="C++" /></a>
-      <a href="https://github.com/InitLoader/pvz-traditional-mod"><img src="https://img.shields.io/github/last-commit/InitLoader/pvz-traditional-mod?style=flat-square&label=last%20signal&color=7c3aed" alt="Last commit" /></a>
-    </td>
-    <td width="50%">
-      <h3><a href="https://github.com/InitLoader/Escape-From-Duckov-Coop-Mod-PreviewUP">🦆 Duckov Co-op Mod</a></h3>
-      <p>逃离鸭科夫联机 Mod preview, built collaboratively in C#.</p>
-      <a href="https://github.com/InitLoader/Escape-From-Duckov-Coop-Mod-PreviewUP"><img src="https://img.shields.io/badge/C%23-0b1220?style=flat-square&logo=csharp&logoColor=a78bfa" alt="C#" /></a>
-      <a href="https://github.com/InitLoader/Escape-From-Duckov-Coop-Mod-PreviewUP"><img src="https://img.shields.io/github/last-commit/InitLoader/Escape-From-Duckov-Coop-Mod-PreviewUP?style=flat-square&label=last%20signal&color=0891b2" alt="Last commit" /></a>
-    </td>
-  </tr>
-</table>
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/InitLoader/InitLoader/output/languages.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/InitLoader/InitLoader/output/languages.svg" />
+  <img width="100%" src="https://raw.githubusercontent.com/InitLoader/InitLoader/output/languages.svg" alt="Animated overview of languages across InitLoader public repositories" />
+</picture>
+
+</div>
 
 ## `> github --telemetry`
 

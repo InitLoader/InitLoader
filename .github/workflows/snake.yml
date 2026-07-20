@@ -1,4 +1,4 @@
-name: Generate contribution snake
+name: Generate profile visuals
 
 on:
   schedule:
@@ -13,6 +13,18 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - name: Check out profile source
+        uses: actions/checkout@v4
+
+      - name: Generate animated language overview
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: >-
+          python scripts/generate_language_stats.py
+          --username "${{ github.repository_owner }}"
+          --output dist/languages.svg
+          --include-forks
+
       - name: Generate light and dark contribution animations
         uses: Platane/snk/svg-only@v3
         with:
