@@ -12,9 +12,6 @@
   <img src="https://img.shields.io/badge/STATUS-BUILDING-22c55e?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status: building" />
 </p>
 
-**游戏系统 · 原生工具 · 逆向工程**<br />
-I explore how software works beneath the surface, then turn that understanding into practical tools and game mods.
-
 </div>
 
 ## `> stack --load`
@@ -49,33 +46,19 @@ I explore how software works beneath the surface, then turn that understanding i
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=InitLoader&theme=github_dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=InitLoader&theme=default" />
-  <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=InitLoader&theme=github_dark" alt="InitLoader GitHub profile details" />
-</picture>
-
-<br />
-
-<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=InitLoader&theme=github_dark" />
   <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=InitLoader&theme=default" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=InitLoader&theme=github_dark" alt="InitLoader GitHub statistics" />
+  <img width="42%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=InitLoader&theme=github_dark" alt="InitLoader GitHub statistics" />
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats-eight.vercel.app?user=InitLoader&hide_border=true&background=00000000&ring=65e6ff&fire=a78bfa&currStreakLabel=65e6ff&sideLabels=cbd5e1&dates=64748b&currStreakNum=f8fafc&sideNums=f8fafc" />
   <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats-eight.vercel.app?user=InitLoader&hide_border=true&background=00000000&ring=0369a1&fire=7c3aed&currStreakLabel=0369a1&sideLabels=334155&dates=64748b&currStreakNum=0f172a&sideNums=0f172a" />
-  <img width="49%" src="https://github-readme-streak-stats-eight.vercel.app?user=InitLoader&hide_border=true&theme=transparent" alt="InitLoader contribution streak" />
+  <img width="42%" src="https://github-readme-streak-stats-eight.vercel.app?user=InitLoader&hide_border=true&theme=transparent" alt="InitLoader contribution streak" />
 </picture>
 
 <br />
 
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=InitLoader&bg_color=00000000&color=65e6ff&line=8b5cf6&point=f8fafc&area=true&area_color=22d3ee&hide_border=true&custom_title=Contribution%20Signal" alt="InitLoader contribution activity graph" />
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=InitLoader&theme=github_dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=InitLoader&theme=default" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=InitLoader&theme=github_dark" alt="InitLoader most committed languages" />
-</picture>
+<img width="84%" src="https://github-readme-activity-graph.vercel.app/graph?username=InitLoader&bg_color=00000000&color=65e6ff&line=8b5cf6&point=f8fafc&area=true&area_color=22d3ee&hide_border=true&custom_title=Contribution%20Signal" alt="InitLoader contribution activity graph" />
 
 </div>
 
