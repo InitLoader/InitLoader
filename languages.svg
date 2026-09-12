@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc">
+  <title id="title">InitLoader language footprint</title>
+  <desc id="desc">Animated language distribution by file size across public repositories</desc>
+  <defs>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/><stop offset=".5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#ec4899"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="bar-shape"><rect x="70" y="150" width="1060" height="20" rx="10"/></clipPath>
+    <clipPath id="bar-reveal"><rect x="70" y="148" width="0" height="24"><animate attributeName="width" from="0" to="1060" dur="1.5s" begin=".35s" fill="freeze" calcMode="spline" keySplines=".22 1 .36 1"/></rect></clipPath>
+    <style>
+      :root{color-scheme:dark light;--bg:#0d1117;--panel:#111827;--text:#e6edf3;--muted:#8b98a9;--line:#263244}
+      @media(prefers-color-scheme:light){:root{--bg:#ffffff;--panel:#f8fafc;--text:#172033;--muted:#64748b;--line:#d8dee9}}
+      text{font-family:"Segoe UI",Inter,Arial,sans-serif}
+      .title{fill:var(--text);font-size:28px;font-weight:700;letter-spacing:.4px}
+      .subtitle,.meta{fill:var(--muted);font-size:15px}
+      .language{fill:var(--text);font-size:18px;font-weight:600}
+      .percent{fill:var(--muted);font-size:17px;font-variant-numeric:tabular-nums}
+      .fade,.entry{opacity:0;animation:fade-in .65s cubic-bezier(.22,1,.36,1) forwards}
+      @keyframes fade-in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+      @media(prefers-reduced-motion:reduce){.fade,.entry{opacity:1;animation:none}}
+    </style>
+  </defs>
+  <rect x="2" y="2" width="1196" height="466" rx="22" fill="var(--bg)" stroke="url(#border)" stroke-width="2"/>
+  <rect x="22" y="22" width="1156" height="426" rx="16" fill="var(--panel)" opacity=".62" stroke="var(--line)"/>
+  <g class="fade" style="animation-delay:.05s">
+    <text class="title" x="70" y="76">总体语言分布 / LANGUAGE FOOTPRINT</text>
+    <text class="subtitle" x="70" y="108">公开仓库文件体积统计 · 8 repositories · 含 Fork · forks included</text>
+    <text class="meta" x="1130" y="76" text-anchor="end">154.1 MB TRACKED</text>
+    <circle cx="1118" cy="105" r="5" fill="#22c55e" filter="url(#glow)"/><text class="meta" x="1105" y="110" text-anchor="end">SCAN COMPLETE</text>
+  </g>
+  <rect x="70" y="150" width="1060" height="20" rx="10" fill="var(--line)"/>
+  <g clip-path="url(#bar-shape)"><g clip-path="url(#bar-reveal)"><rect x="70.00" y="150" width="659.78" height="20" fill="#B07219" /><rect x="729.78" y="150" width="200.92" height="20" fill="#A8B9CC" /><rect x="930.70" y="150" width="123.83" height="20" fill="#F34B7D" /><rect x="1054.53" y="150" width="33.42" height="20" fill="#E34C26" /><rect x="1087.95" y="150" width="14.00" height="20" fill="#9B4F96" /><rect x="1101.95" y="150" width="11.11" height="20" fill="#3572A5" /><rect x="1113.05" y="150" width="8.28" height="20" fill="#E3F171" /><rect x="1121.34" y="150" width="2.60" height="20" fill="#89E051" /><rect x="1123.93" y="150" width="0.84" height="20" fill="#4B6C4B" /><rect x="1124.77" y="150" width="5.23" height="20" fill="hsl(186 62% 58%)" /></g></g>
+  <g class="entry" style="animation-delay:0.85s"><circle cx="90" cy="213" r="6" fill="#B07219" /><text class="language" x="108" y="218">Java</text><text class="percent" x="580" y="218" text-anchor="end">62.24%</text></g><g class="entry" style="animation-delay:0.95s"><circle cx="90" cy="255" r="6" fill="#A8B9CC" /><text class="language" x="108" y="260">C</text><text class="percent" x="580" y="260" text-anchor="end">18.95%</text></g><g class="entry" style="animation-delay:1.05s"><circle cx="90" cy="297" r="6" fill="#F34B7D" /><text class="language" x="108" y="302">C++</text><text class="percent" x="580" y="302" text-anchor="end">11.68%</text></g><g class="entry" style="animation-delay:1.15s"><circle cx="90" cy="339" r="6" fill="#E34C26" /><text class="language" x="108" y="344">HTML</text><text class="percent" x="580" y="344" text-anchor="end">3.15%</text></g><g class="entry" style="animation-delay:1.25s"><circle cx="90" cy="381" r="6" fill="#9B4F96" /><text class="language" x="108" y="386">C#</text><text class="percent" x="580" y="386" text-anchor="end">1.32%</text></g><g class="entry" style="animation-delay:1.35s"><circle cx="640" cy="213" r="6" fill="#3572A5" /><text class="language" x="658" y="218">Python</text><text class="percent" x="1130" y="218" text-anchor="end">1.05%</text></g><g class="entry" style="animation-delay:1.45s"><circle cx="640" cy="255" r="6" fill="#E3F171" /><text class="language" x="658" y="260">Pascal</text><text class="percent" x="1130" y="260" text-anchor="end">0.78%</text></g><g class="entry" style="animation-delay:1.55s"><circle cx="640" cy="297" r="6" fill="#89E051" /><text class="language" x="658" y="302">Shell</text><text class="percent" x="1130" y="302" text-anchor="end">0.25%</text></g><g class="entry" style="animation-delay:1.65s"><circle cx="640" cy="339" r="6" fill="#4B6C4B" /><text class="language" x="658" y="344">Yacc</text><text class="percent" x="1130" y="344" text-anchor="end">0.08%</text></g><g class="entry" style="animation-delay:1.75s"><circle cx="640" cy="381" r="6" fill="hsl(186 62% 58%)" /><text class="language" x="658" y="386">Other</text><text class="percent" x="1130" y="386" text-anchor="end">0.49%</text></g>
+  <g class="fade" style="animation-delay:1.85s">
+    <line x1="70" y1="420" x2="1130" y2="420" stroke="var(--line)"/>
+    <text class="meta" x="70" y="444">按 GitHub Linguist 检测的文件字节汇总 · percentages by detected file size</text>
+    <text class="meta" x="1130" y="444" text-anchor="end">Updated 2026-09-12 07:10 UTC</text>
+  </g>
+</svg>
