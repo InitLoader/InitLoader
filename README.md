@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="InitLoader — Game Modding, Native Tooling and Reverse Engineering" />
+<img src="./assets/profile-header.svg" width="100%" alt="InitLoader — Game Modding, Native Tooling and Reverse Engineering" />
 
 <p><strong>游戏 Mod · 原生工具 · 逆向工程</strong></p>
 
