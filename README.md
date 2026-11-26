@@ -41,27 +41,6 @@
 
 </div>
 
-## `> github --telemetry`
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=InitLoader&theme=github_dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=InitLoader&theme=default" />
-  <img width="42%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=InitLoader&theme=github_dark" alt="InitLoader GitHub statistics" />
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats-eight.vercel.app?user=InitLoader&hide_border=true&background=00000000&ring=65e6ff&fire=a78bfa&currStreakLabel=65e6ff&sideLabels=cbd5e1&dates=64748b&currStreakNum=f8fafc&sideNums=f8fafc" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats-eight.vercel.app?user=InitLoader&hide_border=true&background=00000000&ring=0369a1&fire=7c3aed&currStreakLabel=0369a1&sideLabels=334155&dates=64748b&currStreakNum=0f172a&sideNums=0f172a" />
-  <img width="42%" src="https://github-readme-streak-stats-eight.vercel.app?user=InitLoader&hide_border=true&theme=transparent" alt="InitLoader contribution streak" />
-</picture>
-
-<br />
-
-<img width="84%" src="https://github-readme-activity-graph.vercel.app/graph?username=InitLoader&bg_color=00000000&color=65e6ff&line=8b5cf6&point=f8fafc&area=true&area_color=22d3ee&hide_border=true&custom_title=Contribution%20Signal" alt="InitLoader contribution activity graph" />
-
-</div>
-
 ## `> contributions --3d`
 
 <div align="center">
