@@ -86,22 +86,35 @@ def render_svg(username: str, days: list[tuple[int, str]], first_weekday: int) -
   <title id="title">{html.escape(username)} contributions calendar</title>
   <desc id="desc">An isometric view of the past year of GitHub contributions. Taller blocks indicate more activity.</desc>
   <style>
-    :root{{--heading:#58a6ff;--text:#adbac7;--empty:#e6ebf0;--grid:#8c959f}}
-    @media(prefers-color-scheme:light){{:root{{--heading:#0969da;--text:#57606a;--empty:#eaeef2;--grid:#8c959f}}}}
-    text{{font:24px system-ui,sans-serif;fill:var(--text)}}
-    .heading{{font-size:27px;font-weight:600;fill:var(--heading)}}
-    .title{{font-size:30px}}
+    :root{{--heading:#79c0ff;--label:#adbac7;--value:#e6edf3;--rule:#30363d;--empty:#e6ebf0;--grid:#8c959f}}
+    @media(prefers-color-scheme:light){{:root{{--heading:#0969da;--label:#57606a;--value:#1f2328;--rule:#d0d7de;--empty:#eaeef2}}}}
+    text{{font-family:system-ui,"Segoe UI",sans-serif;fill:var(--label)}}
+    .title,.group-title{{font-weight:650;fill:var(--heading)}}
+    .title{{font-size:32px}}
+    .group-title,.stat-label{{font-size:21px}}
+    .stat-value{{font-size:34px;font-weight:650;font-variant-numeric:tabular-nums;fill:var(--value)}}
+    .stat-unit{{font-size:18px;font-weight:500;fill:var(--label)}}
+    .stat-rule{{fill:none;stroke:var(--rule)}}
     .tile{{stroke:var(--grid);stroke-opacity:.45;stroke-width:.55;stroke-linejoin:round}}
   </style>
-  <text class="heading title" x="28" y="48">Contributions calendar</text>
+  <text class="title" x="28" y="48">Contribution calendar</text>
   {''.join(tiles)}
-  <g>
-    <text class="heading" x="570" y="91">Contribution streaks</text>
-    <text x="570" y="125">Current streak · {current} day{'s' if current != 1 else ''}</text>
-    <text x="570" y="159">Best streak · {best} day{'s' if best != 1 else ''}</text>
-    <text class="heading" x="570" y="197">Contributions per day</text>
-    <text x="570" y="231">Highest in a day · {peak}</text>
-    <text x="570" y="265">Daily average · {average:.2f}</text>
+  <g transform="translate(558 87)">
+    <path class="stat-rule" d="M0 15h367 M174 31v111"/>
+    <g>
+      <text class="group-title">Streaks</text>
+      <text class="stat-label" y="43">Current streak</text>
+      <text class="stat-value" y="76">{current}<tspan class="stat-unit" dx="5"> day{'s' if current != 1 else ''}</tspan></text>
+      <text class="stat-label" y="109">Best streak</text>
+      <text class="stat-value" y="142">{best}<tspan class="stat-unit" dx="5"> day{'s' if best != 1 else ''}</tspan></text>
+    </g>
+    <g transform="translate(195 0)">
+      <text class="group-title">Daily activity</text>
+      <text class="stat-label" y="43">Highest in a day</text>
+      <text class="stat-value" y="76">{peak}</text>
+      <text class="stat-label" y="109">Daily average</text>
+      <text class="stat-value" y="142">{average:.2f}</text>
+    </g>
   </g>
 </svg>'''
 
