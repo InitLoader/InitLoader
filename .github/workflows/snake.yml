@@ -25,15 +25,16 @@ jobs:
           --output dist/languages.svg
           --include-forks
 
-      - name: Generate light and dark contribution animations
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#65e6ff
+      - name: Generate isometric contribution calendar
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: >-
+          python scripts/generate_contribution_calendar.py
+          --username "${{ github.repository_owner }}"
+          --output dist/contributions-3d.svg
 
-      - name: Publish animations to output branch
+      - name: Publish visuals to output branch
+        if: github.ref_name == github.event.repository.default_branch
         uses: crazy-max/ghaction-github-pages@v5
         with:
           build_dir: dist
