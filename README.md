@@ -45,7 +45,7 @@
 
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/InitLoader/InitLoader/output/contributions-3d.svg" alt="Isometric GitHub contribution calendar for the past year" />
+<img width="100%" src="https://raw.githubusercontent.com/InitLoader/InitLoader/refs/heads/output/contributions-3d.svg" alt="Isometric GitHub contribution calendar for the past year" />
 
 </div>
 
