@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="InitLoader — game systems and reverse engineering" />
+<img src="./assets/profile-banner.svg" width="100%" alt="InitLoader — game systems and reverse engineering" />
 
 <a href="https://github.com/InitLoader">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2600&pause=850&color=65E6FF&center=true&vCenter=true&repeat=true&width=720&height=45&lines=Game+Modding+%E2%80%A2+Native+Tooling+%E2%80%A2+Reverse+Engineering;Unity+%2F+Unreal+%E2%80%A2+C%23+%2F+C%2B%2B+%2F+C;Turning+curiosity+into+working+systems..." alt="Animated introduction" />
