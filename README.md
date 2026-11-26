@@ -62,17 +62,11 @@
 
 </div>
 
-## `> contributions --animate`
+## `> contributions --3d`
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/InitLoader/InitLoader/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/InitLoader/InitLoader/output/github-contribution-grid-snake.svg" />
-  <img width="100%" src="https://raw.githubusercontent.com/InitLoader/InitLoader/output/github-contribution-grid-snake-dark.svg" alt="Animated contribution snake" />
-</picture>
-
-<sub>自动生成于 GitHub Actions · Updated automatically by GitHub Actions</sub>
+<img width="100%" src="https://raw.githubusercontent.com/InitLoader/InitLoader/output/contributions-3d.svg" alt="Isometric GitHub contribution calendar for the past year" />
 
 </div>
 
