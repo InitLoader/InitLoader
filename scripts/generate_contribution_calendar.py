@@ -97,8 +97,8 @@ def render_svg(username: str, days: list[tuple[int, str]], first_weekday: int) -
   {''.join(tiles)}
   <g>
     <text class="heading" x="570" y="91">Contribution streaks</text>
-    <text x="570" y="125">Current streak · {current} days</text>
-    <text x="570" y="159">Best streak · {best} days</text>
+    <text x="570" y="125">Current streak · {current} day{'s' if current != 1 else ''}</text>
+    <text x="570" y="159">Best streak · {best} day{'s' if best != 1 else ''}</text>
     <text class="heading" x="570" y="197">Contributions per day</text>
     <text x="570" y="231">Highest in a day · {peak}</text>
     <text x="570" y="265">Daily average · {average:.2f}</text>
